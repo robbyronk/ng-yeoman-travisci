@@ -7,6 +7,10 @@ angular.module('ngYeomanTravisciApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/gnuRoute', {
+        templateUrl: 'views/gnuRoute.html',
+        controller: 'GnuRouteCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
