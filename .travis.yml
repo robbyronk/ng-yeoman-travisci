@@ -24,6 +24,8 @@ env:
         # travis encrypt GH_OAUTH_TOKEN=XXXXXXXXXXXXXXX
         #
         # User specific env variables
+        #
+        # try removing the quotes from secure if you are having issues, see #3.
         - secure: "n+n6uzE0ahGMx/jdR1/eNE0VakL8rQkyTXl/ookOxQoVypNeTlCGchGuWoW2pLHK+Xh/1GPE2DzOl2R2p/IN76VYuaq4fhfdHqbwrg0RN6vayxhdC1zyiUkd7qFIvoJ7RaIwWfCBg3e/h3z3/7gEIfR7WejyB0JQk1eC0GmNh08="
         - GH_OWNER: robbyronk
         - GH_PROJECT_NAME: ng-yeoman-travisci
